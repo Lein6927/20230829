@@ -1,0 +1,134 @@
+/*html{
+    display: inline-flex;
+}*/
+
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #401006;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    
+}
+header a{
+    color: #f2f2f2;
+    font-size: 32px;
+    text-decoration: none;
+    text-align: center;
+}
+/*導覽列*/
+nav{
+    width: 100%;
+    height: 40px;
+    background-color: #733B2F;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+}
+nav a{
+    color: #f2f2f2;
+    display: inline-block;
+    margin: 0px 20px;
+    text-decoration: none;
+    padding: 0 10px;
+}
+nav a:hover{
+    background-color: #401006;
+}
+/*主體開始*/
+.content{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.label{
+    width: 150px;
+    height: 40px;
+    background-color: #401006;
+    color: #f2f2f2;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 0 20px;
+    margin: 30px 10px;
+
+}
+img{
+    /*width: 1280px;*/
+    width: 100%;
+    display: inline-block;
+    /*align-items: center;*/
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#p_first{
+    display: inline-block;
+    align-items: center;
+    margin: 10px;
+    overflow: hidden;
+}
+#p_first p{
+    line-height: 1.5;
+    column-count: 3;
+    text-align: justify;
+    column-gap: 40px;
+    overflow: hidden;
+}
+
+/*第2部分*/
+
+.part01{
+    overflow: auto;
+    scroll-behavior: smooth;
+    margin: 20;
+    padding:20px 0; ;
+    background-color: #733B2F;
+}
+.part01_photo {
+    width: 600px;
+    background-color: purple;
+    float: left;
+    margin:0 10px;
+
+}
+
+.part01_photo img {
+    width: 100%;
+
+    /*display: block;
+    align-items: center; 
+    text-align: center;
+    margin: 0;
+    padding: 0;*/
+}
+
+.part01_text {
+    width: 600px;
+    height: 400px;
+    background-color: #401006;
+    float: left;
+    /*align-items: center;*/
+    margin: 0px 5px;
+    color: snow;
+    overflow: auto;
+    
+}
+
+.part01_text p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+    overflow: auto;
+    /*scroll-behavior: smooth;*/
+}
